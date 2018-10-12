@@ -152,3 +152,78 @@ h3 span {
     background-image: url(../../img/card_plus.png);
 
 }
+
+/*-------------- header --------------- */
+.site-header {
+    min-height: 180px;
+    background: #fff;
+}
+
+.site-header a {
+    color: #34404b; 
+    text-decoration: none;
+}
+
+.header-line {
+    min-height: 60px;
+    border-bottom: 1px solid #edeff1;
+}
+
+.main-logo {
+    margin-top: 30px;
+}
+
+.main-nav ul::after {
+    contain: "";
+    display: block;
+    clear: both;
+}
+
+.main-nav li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    margin: 22px 15px;
+}
+
+.main-nav .activ a {
+     color: #ff5912;
+}
+
+.ico-line {
+    margin-top: 38px; 
+}
+
+.ico-line img {
+    margin: 0 12px;
+}
+
+.cart-cout {
+    /* display: inline-block; */
+    position: relative;
+}
+
+.cart-cout::after {
+    content: "6";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top: -18px;
+    left: 16px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 11px;
+    text-align: center; 
+}
+
+/*-------------- header --------------- */
+
+/* -------------footer_block------------ */
+.block-770 {
+    width:  64.1666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
