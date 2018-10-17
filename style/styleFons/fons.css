@@ -39,6 +39,15 @@ h3 span {
     margin: 10px auto; 
 }
 
+.row {
+    margin: 0 -1.25%;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .goods-cards {
     width: 250px;
     height: 365px;
@@ -221,9 +230,77 @@ h3 span {
 /*-------------- header --------------- */
 
 /* -------------footer_block------------ */
+
+.site-footer {
+    background: #fff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #28313b;
+}
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4 {
+    font-size: 16px;
+    color: #ff5912;
+}
+
+.block-370 {
+    width: 30.8333%;
+    min-height: 100px;
+    float: left;
+    margin: 1.25%
+}
+
+.block-170 {
+    width:  14.16666%;
+    min-height: 100px;
+    float: left;
+    margin: 1.25%;
+}
 .block-770 {
     width:  64.1666%;
     min-height: 100px;
     float: left;
     margin: 0 1.25%;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+ul.footer-nav a{
+    color: #28313b;
+    text-decoration: none;
+}
+ul.footer-nav a:hover {
+    color: #ff5912;
+}
+ul.footer-nav .active {
+    color: #ff5912;
+}
+
+ul.footer-nav li {
+    margin: 10px;
+}
+
+.payment-img {
+    width: 25px;
+    height: 17px;
+    background-image: url('../../img/payment_bg.png');
+    display: inline-block;
+}
+
+.mix {
+    background-position: -1px -1px; 
+}
+
+.cart {
+    background-position: -36px -1px;
+}
+.visa {
+    background-position: -82px -1px;
+}
+.master-cart {
+    background-position: -108px -1px;
+}
+.grey {
+    background-position: -144px -1px;
 }
